@@ -1,0 +1,280 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  /* text-align: end; */
+  background-color: black;
+  line-height: 70px;
+}
+.header-img img {
+  width: 100px;
+  height: 70px;
+}
+
+.header a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: monospace;
+}
+.flag img {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-1 {
+  width: 20%;
+  height: 500px;
+  background-color: green;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.problem li {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.content-2 {
+  width: 58%;
+  margin: 0 1%;
+  height: 500px;
+  background-color: red;
+  float: left;
+  text-align: center;
+  font-size: 30;
+  color: white;
+}
+.content-2 li {
+  margin-top: 5px;
+  font-weight: 900;
+}
+
+.content-3 {
+  width: 20%;
+  height: 500px;
+  background-color: green;
+  float: left;
+  text-align: center;
+  font-size: 30;
+  color: white;
+}
+.content-3 li {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.flag-section {
+  margin-top: 20px;
+}
+.img-fl {
+  text-align: center;
+}
+.img-fl img {
+  margin-top: 30px;
+  width: 400px;
+  height: 300px;
+}
+/* from */
+.donation {
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(43, 0, 255);
+}
+.form-body {
+  background-color: rgb(15, 127, 187);
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.regform {
+  width: 800px;
+  background-color: rgba(81, 84, 87, 0.6);
+  color: #e5e5e5;
+  margin: auto;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+}
+.mane {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 800px;
+  margin: auto;
+}
+form {
+  padding: 10px;
+}
+#name {
+  width: 100%;
+  height: 100px;
+}
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.firsthname {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.lasthname {
+  position: relative;
+  left: 417px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.firstlebel {
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 203px;
+  top: -45px;
+}
+.lastlebel {
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 175px;
+  top: -45px;
+}
+
+.company {
+  position: relative;
+  left: 200px;
+  top: -42px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.email {
+  position: relative;
+  left: 200px;
+  top: -42px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.code {
+  position: relative;
+  left: 200px;
+  top: -42px;
+  line-height: 40px;
+  width: 95px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.number {
+  position: relative;
+  left: 200px;
+  top: -42px;
+  line-height: 40px;
+  width: 255px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.area-code {
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 16px;
+  left: 54px;
+  top: -4px;
+}
+.phone-number {
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 16px;
+  left: -100px;
+  top: -4px;
+}
+.option {
+  position: relative;
+  left: 200px;
+  top: -42px;
+  line-height: 40px;
+  width: 532px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  overflow: hidden;
+}
+.option option {
+  font-size: 20px;
+}
+#student {
+  margin-left: 25px;
+  color: white;
+  font-size: 18px;
+}
+.radio {
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+  color: white;
+}
+.radio-1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+button {
+  background-color: orangered;
+  display: block;
+  font-size: 20px;
+  margin: 20px 0 0 20px;
+  text-align: center;
+  border-radius: 13px;
+  border: 2px solid #364073;
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+}
+/* footer */
+footer {
+  margin-top: 20px;
+  background-color: black;
+  color: azure;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
